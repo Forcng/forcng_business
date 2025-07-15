@@ -1,4 +1,4 @@
-function OPEN(name, menu, category)
+local function OPEN(name, menu, category)
     local menus = {}
 
     for _, item in pairs(menu) do
